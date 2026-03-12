@@ -8,7 +8,12 @@ Console.WriteLine("Feature2");
 
 static double CalculateMax(int[] values)
 {
-    return 0.0;
+    int max = -1;
+    foreach (var value in values)
+        if (value > max)
+            max = value;
+    
+    return max;
 }
 
 
