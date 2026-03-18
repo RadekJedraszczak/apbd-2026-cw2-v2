@@ -67,3 +67,4 @@ int[] tab = new[] { 5, 6, 1, 8, 2 };
 Console.WriteLine(CalculateMin(tab));
 
 
+int some = 0;
