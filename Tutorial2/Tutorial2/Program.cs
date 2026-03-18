@@ -46,9 +46,9 @@ static int CalculateAverage(int[] values)
     return sum;
 }
 
-int[] bigVal = new[]{1,2,3,4,5,6};
+int[] bigValues = new[]{1,2,3,4,5,6};
 
-Console.WriteLine(CalculateAverage(bigVal));
+Console.WriteLine(CalculateAverage(bigValues));
 
 int CalculateMin(int[] values)
 {
