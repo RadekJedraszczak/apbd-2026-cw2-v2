@@ -50,5 +50,17 @@ int[] val = new[]{1,2,3,4,5,6};
 
 Console.WriteLine(CalculateAverage(val));
 
+int CalculateMin(int[] values)
+{
+    int valMin = int.MaxValue;
+    for (int i = 0; i < values.Length; i++)
+    {
+        if (values[i] < valMin)
+        {
+            valMin = values[i];
+        }
+    }
+    return valMin;
+}
 
 
